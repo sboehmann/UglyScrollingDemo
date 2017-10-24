@@ -1,0 +1,11 @@
+QT += quick
+CONFIG += c++14
+
+DEFINES += QT_DEPRECATED_WARNINGS
+DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000
+
+HEADERS += view.h
+SOURCES += main.cpp view.cpp
+
+RESOURCES += qml.qrc
+
